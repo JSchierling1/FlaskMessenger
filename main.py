@@ -21,7 +21,8 @@ def start_page(name):
         new_message = Message(user = name, content = request.form['content'])
         db.session.add(new_message)
         db.session.commit()
-    return render_template('index.html')
+    messages = Message.query.order_by(Message.created_at).all()
+    return render_template('index.html', messages = messages, name = name)
 
 if __name__ == '__main__':
     app.run(debug=True)
