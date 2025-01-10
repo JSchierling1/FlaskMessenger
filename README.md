@@ -24,7 +24,7 @@ Apply the knowledge in my upcoming MiniML project.
 ## 🛠 **Technologies Used**
 
 - **Backend:** Flask (Python)  
-- **Frontend:** HTML, CSS, JavaScript  
+- **Frontend:** HTML, CSS, Bootstrap
 
 
 ## 📂 **Project Structure**
