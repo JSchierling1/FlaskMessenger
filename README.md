@@ -1,6 +1,6 @@
 # Flask Chat Messenger – Tutorial Implementation
 
-This repository contains my personal implementation of a **Flask Chat Messenger**, following the [YouTube tutorial by Tech With Tim](https://www.youtube.com/watch?v=l9u_vm9aAmM). The project is a great way to learn about building web applications with Flask, including routing, templates, and handling real-time communication.
+This repository contains my personal implementation of a **Flask Chat Messenger**, following the [YouTube tutorial by Programmieren lernen](https://www.youtube.com/watch?v=l9u_vm9aAmM). In my opinion the project is a great way to learn about building web applications with Flask, including routing, templates, and handling real-time communication. The main point of getting a 
 
 ## 📄 **Project Overview**
 
@@ -11,47 +11,27 @@ This chat messenger application is built using **Flask**, with a focus on learni
 - Handling real-time updates and messaging.
 - Managing user sessions.
 
+## 🔍 **Motivation**
+This project serves as a hands-on exercise to learn Flask and real-time web development. The primary motivation is to gain experience with Flask, which I plan to use in a future project: a lightweight Machine Learning experiment tracking tool [MiniML](https://github.com/JSchierling1/MiniML) (similar to ClearML) that will help visualize and compare ML experiments for the Project of my Bachelor Thesis.
+
+By working through this chat messenger tutorial, I aim to:
+
+Understand how Flask handles routes, requests, and responses.
+Learn how to build and structure a Flask application.
+Gain experience with front-end and back-end communication.
+Apply the knowledge in my upcoming MiniML project.
+
 ## 🛠 **Technologies Used**
 
 - **Backend:** Flask (Python)  
 - **Frontend:** HTML, CSS, JavaScript  
-- **Additional Libraries:** Flask-SocketIO for real-time communication
 
-## 🚀 **How to Run the Project**
-
-1. Clone this repository:
-   ```bash
-   git clone <repository-url>
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd flask-chat-messenger
-   ```
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Run the Flask application:
-   ```bash
-   flask run
-   ```
-5. Open your web browser and go to `http://localhost:5000` to view the chat messenger.
 
 ## 📂 **Project Structure**
 
-```
-/static        # CSS, JavaScript, and images
-/templates     # HTML templates
-app.py         # Main Flask application
-README.md      # Project documentation
-```
 
 ## 🌟 **Features Implemented**
 
-- Real-time chat functionality using Flask-SocketIO.
-- Basic user interface for chatrooms.
-- Responsive design for mobile and desktop devices.
-- Simple session handling for users.
 
 ## 🔧 **Work in Progress**
 
