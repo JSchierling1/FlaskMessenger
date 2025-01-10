@@ -26,12 +26,9 @@ Apply the knowledge in my upcoming MiniML project.
 - **Backend:** Flask (Python)  
 - **Frontend:** HTML, CSS, Bootstrap
 
-
-## 📂 **Project Structure**
-
-
 ## 🌟 **Features Implemented**
-
+- Basic messanger 
+- Database with Sqlite 
 
 ## 🔧 **Work in Progress**
 
